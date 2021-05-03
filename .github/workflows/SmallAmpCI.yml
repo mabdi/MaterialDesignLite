@@ -43,11 +43,8 @@ jobs:
           SMALLAMP_ALLJOBS: ${{ strategy.job-total }}
       - run: pwd
         shell: bash
-      - run: ls ${{ env.SMALLTALK_CI_BUILD }} -al
+      - run: ls ${{ env.SMALLTALK_CI_BUILD }}/pharo-local/iceberg/ -al
         shell: bash
-      - run: git status
-        shell: bash  
-        working-directory: ${{ env.SMALLTALK_CI_BUILD }}/pharo-local/iceberg/mabdi/smalltalk-SmallBank
       - run: ls -al
         shell: bash
       - run: git branch 
