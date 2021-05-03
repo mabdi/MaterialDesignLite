@@ -1,4 +1,22 @@
-<!--git log --pretty="* %s ([%h](https://github.com/DuneSt/MaterialDesignLite/commit/%H))" v2.2.1...HEAD --grep="Merge pull"-->
+<!--git log --pretty="* %s ([%h](https://github.com/DuneSt/MaterialDesignLite/commit/%H))" v2.2.4...HEAD --grep="Merge pull"-->
+
+# [v2.2.4](https://github.com/DuneSt/MaterialDesignLite/compare/v2.2.3...v2.2.4) (2020-07-30)
+
+## Bug fixes
+
+* Fix svg icons not showing because of Seaside update ([c0a86d01](https://github.com/DuneSt/MaterialDesignLite/commit/c0a86d0152de2aa3bf12e052f7c38d46609ec53f))
+
+# [v2.2.3](https://github.com/DuneSt/MaterialDesignLite/compare/v2.2.2...v2.2.3) (2020-07-29)
+
+## Enhancements
+
+* Make huge sortable tables scrollable ([16ee8245](https://github.com/DuneSt/MaterialDesignLite/commit/16ee8245df6a80987bef9d302fe730f5f664ab81))
+
+# [v2.2.2](https://github.com/DuneSt/MaterialDesignLite/compare/v2.2.1...v2.2.2) (2020-07-28)
+
+## Cleanup
+
+* Move SortedTable css to css file ([d46dc194](https://github.com/DuneSt/MaterialDesignLite/commit/d46dc194796f602e277b1d769448f9494bdb3554))
 
 # [v2.2.1](https://github.com/DuneSt/MaterialDesignLite/compare/v2.2.0...v2.2.1) (2020-01-09)
 
