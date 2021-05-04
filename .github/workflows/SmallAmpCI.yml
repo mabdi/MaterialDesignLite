@@ -33,26 +33,9 @@ jobs:
         shell: bash
         timeout-minutes: 15
       - uses: mabdi/smallamp-action@main
-      - run: git checkout -b ${{ env.SMALLAMP_BRANCH_NAME }}
-        shell: bash
       - run: smallAmpCI 
         shell: bash
         env:
           # you can also use: ${{ matrix.portion }}
           SMALLAMP_PORTION: ${{ strategy.job-index }} 
           SMALLAMP_ALLJOBS: ${{ strategy.job-total }}
-      - run: pwd
-        shell: bash
-      - run: ls ${{ env.SMALLTALK_CI_BUILD }}/pharo-local/iceberg/ -al
-        shell: bash
-      - run: ls -al
-        shell: bash
-      - run: git branch 
-        shell: bash
-      - run: git status
-        shell: bash
-      - run: env
-        shell: bash
-      - run: |
-          git config user.name mabdi
-          git push -u origin HEAD
